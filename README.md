@@ -82,6 +82,17 @@ than bigger blobs.
 
 ## Running the server
 
+Build the solution first if you hadn't yet
+
+- Run AgarIo.Server. You can setup `Port`, `AdminLogin` and `AdminPassword` in
+[./AgarIo.Server/App.config](./AgarIo.Server/App.config). These values are what you will be using
+to connect with AdminPanel.
+- Run the AgarIo.AdminPanel and login as administrator with `AdminLogin` and `AdminPassword` that
+you setup for your server.
+  
+  From there you can change the game parameters and start the game (starting a new game kills the
+  previous one immediately, connected clients will be thrown into the next game).
+
 ## Visualisation
 
 [https://github.com/kfazi/AgarIoVisualisation](https://github.com/kfazi/AgarIoVisualisation)
